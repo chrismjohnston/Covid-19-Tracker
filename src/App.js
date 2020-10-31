@@ -11,11 +11,11 @@ function App() {
     <div className="app">
       <h1>COVID 19 TRACKER</h1>
       <FormControl className="app-dropdown">
-        <Select
-          variant="outlined"
-          value="abc"
-          >
+        <Select variant="outlined" value="abc">
           <MenuItem value="worldwide">Worldwide</MenuItem>
+          <MenuItem value="worldwide">Option 1</MenuItem>
+          <MenuItem value="worldwide">Option two</MenuItem>
+          <MenuItem value="worldwide">Option 3</MenuItem>
         </Select>
       </FormControl>
 
